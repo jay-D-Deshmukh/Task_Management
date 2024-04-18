@@ -4,6 +4,8 @@ import Signup from "./component/Signin";
 import Login from "./component/Login";
 import Home from "./component/Home";
 import Createtak from "./component/Createtak";
+import Viewalltask from "./component/Viewalltask";
+import UpdateTask from "./component/UpdateTask";
 
 export function App() {
   return (
@@ -14,6 +16,10 @@ export function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/createtask" element={<Createtak/>} />
+          <Route path="/alltask" element={<Viewalltask/>} />
+          <Route path="/updatetask" element={<UpdateTask/>} />
+          
+
 
         </Routes>
       </BrowserRouter>
