@@ -47,7 +47,7 @@ function Createtak() {
       setTitle("")
       setDescription("")
       setInfo("")
-      t
+      
     } catch (error) {
       console.log(error);
     }

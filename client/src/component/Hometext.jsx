@@ -8,7 +8,7 @@ function Hometext() {
     <div>
          <div className="text-center justify-center ">
         <div className="mt-28">
-          <h1 className="text-5xl font-medium">Wellcome to Task Maneger</h1>
+          <h1 className="text-5xl font-medium">Wellcome to Task Manager</h1>
         </div>
         <div className="mt-16">
           <Link to="/createtask">
