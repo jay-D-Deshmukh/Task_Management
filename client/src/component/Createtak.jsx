@@ -30,10 +30,10 @@ function Createtak() {
   const postTask = async () => {
     try {
       const token = Cookies.get("token"); // Get the token from the cookie
-      console.log(token);
+      
 
       const response = await axios.post(
-        "http://localhost:5010/api/task",
+        "https://task-management-skn6.onrender.com/api/task",
         taskData,
         {
           headers: {

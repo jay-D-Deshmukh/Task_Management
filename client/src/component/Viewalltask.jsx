@@ -10,7 +10,7 @@ function Viewalltask() {
   const getTask = async () => {
     const token = Cookies.get("token");
     try {
-      const res = await axios.get("http://localhost:5010/api/task/list", {
+      const res = await axios.get("https://task-management-skn6.onrender.com/api/task/list", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -28,7 +28,7 @@ function Viewalltask() {
   const handleDelete = async (taskId) => {
     const token = Cookies.get("token");
     try {
-      await axios.delete(`http://localhost:5010/api/task/${taskId}`, {
+      await axios.delete(`https://task-management-skn6.onrender.com/api/task/${taskId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

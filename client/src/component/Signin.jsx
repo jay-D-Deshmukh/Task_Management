@@ -35,7 +35,7 @@ function Signup() {
       };
   
       try {
-        const response = await axios.post("http://localhost:5010/api/user/register", userData);
+        const response = await axios.post("https://task-management-skn6.onrender.com/api/user/register", userData);
         
         if (response.data.status == true) {
           alert("Successfully signed up");
