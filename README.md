@@ -87,3 +87,28 @@ npm install express mongoose jsonwebtoken bcryptjs dotenv cors body-parser
 Install Nodemon:
 
 npm install nodemon --save-dev
+
+
+![Screenshot (888)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/4502e3ef-4930-4072-89f5-2ec95722bca8)
+
+
+![Screenshot (889)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/165205f8-125a-4b4f-a91a-2fb3260d572a)
+
+![Screenshot (890)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/f5e72247-7f98-456a-a6fc-a2b1f04ceead)
+
+
+
+![Screenshot (891)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/7bbf6016-8c80-493e-9da3-0e9a3dd12899)
+
+![Screenshot (892)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/6ff570f2-ad49-47ca-85ae-6ef4b057342b)
+
+![Screenshot (893)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/445aa3bb-6062-441e-b7c7-27ac122a742a)
+
+
+![Screenshot (894)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/919dc1c7-f60b-41bb-a6ba-a67477711ddc)
+
+
+
+![Screenshot (895)](https://github.com/jay-D-Deshmukh/Task_Management/assets/112411599/5806a650-6d28-4cc5-ba79-b7eb44dc8fcc)
+
+
