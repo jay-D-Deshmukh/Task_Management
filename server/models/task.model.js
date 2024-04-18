@@ -1,5 +1,5 @@
-import mongoose from "mongoose";
 import { Schema, model } from "mongoose";
+
 const TaskSchema = new Schema({
   title: {
     type: String,
@@ -11,9 +11,9 @@ const TaskSchema = new Schema({
   task: {
     type: String,
   }
- 
-  
+}, {
+  timestamps: true // Automatically add createdAt and updatedAt fields
 });
 
-const Task = new model("Task", TaskSchema);
+const Task = model("Task", TaskSchema);
 export default Task;

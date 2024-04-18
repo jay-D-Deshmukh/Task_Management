@@ -31,12 +31,13 @@ export const loginUser = async (req, res) => {
       return;
     }
 
-    const jwtToken = await UserData.genarateJWTToken();
+    const jwtToken = await UserData.generateJWTToken();
 
     res.cookie("token", jwtToken, {
+     
       maxAge: 2 * 24 * 60 * 60 * 1000,
     });
-    res.status(200).send({ status: true, message: "Successfully login" });
+    res.status(200).send({ status: true, message: "Successfully login",token:jwtToken });
   } catch (error) {
     console.log("Error in login ::", error);
   }

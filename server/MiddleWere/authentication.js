@@ -2,7 +2,11 @@ import jwt from "jsonwebtoken";
 
 
 const isLoggedIn = (req, res, next) => {
-    const { token } = req.cookies;
+      
+  
+    const  token  = req.headers.authorization;
+    
+    
     const tokenDelails = jwt.verify(token,process.env.JWT_PASSWORD);
   
   if (!token || !tokenDelails) {

@@ -3,10 +3,10 @@ import Task from "../models/task.model.js";
 
 export const createTask=async (req,res)=>{
    
-    const movieData = req.body;
+    const taskData = req.body;
     try {
         const createTask=await Task.create(taskData);
-        res.status(200).json({message:"Task created successfully",data:createTask});
+        res.status(200).json({message:"Task created successfully",status:true});
 
         } catch (error) {
             res.status(500).json({message: error.message})
