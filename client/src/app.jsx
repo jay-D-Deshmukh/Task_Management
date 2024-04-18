@@ -1,4 +1,3 @@
-import { useState } from "preact/hooks";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from "./component/Signin";
 import Login from "./component/Login";
