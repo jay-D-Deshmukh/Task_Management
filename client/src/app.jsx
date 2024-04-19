@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Signup from "./component/Signin";
-import Login from "./component/Login";
-import Home from "./component/Home";
-import Createtak from "./component/Createtak";
-import Viewalltask from "./component/Viewalltask";
-import UpdateTask from "./component/UpdateTask";
+import Signup from "./Components/Signin";
+import Login from "./Components/Login";
+import Home from "./Components/Home";
+import Createtak from "./Components/Createtak";
+import Viewalltask from "./Components/Viewalltask";
+import UpdateTask from "./Components/UpdateTask";
 
 export function App() {
   return (
